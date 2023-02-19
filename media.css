@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1175px) {
+    .card{
+        height: 28vh;
+        width: 15vw;
+        border-radius: 9px;
+    }
+
+    .color-temp{
+        height: 18vh;
+        width: 12vw;
+        border: 1px solid black;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgb(203, 203, 203);
+        min-height: 30vh;
+    }    
+    .card{
+        height: 23vh;
+        width: 13vw;
+        border-radius: 9px;
+    }
+
+    .color-temp{
+        height: 16vh;
+        width: 11vw;
+        border: 1px solid black;
+        margin-bottom: 15px;
+    }
+    .copy-col{
+        height: 22px;
+        width: 6vw;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 947px) {
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgb(203, 203, 203);
+        min-height: 30vh;
+    }    
+    .card{
+        height: 23vh;
+        width: 23vw;
+        border-radius: 9px;
+    }
+    .color-temp{
+        height: 16vh;
+        width: 20vw;
+        border: 1px solid black;
+        margin-bottom: 15px;
+    }
+    .copy-col{
+        height: 22px;
+        width: 12vw;
+        font-size: 10px;
+    }
+
+    #c5{
+        display: none;
+    }
+
+    #c10{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 711px) {
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgb(203, 203, 203);
+        min-height: 30vh;
+    }    
+    .card{
+        height: 25vh;
+        width: 25vw;
+        border-radius: 9px;
+    }
+    .color-temp{
+        height: 18vh;
+        width: 22vw;
+        border: 1px solid black;
+        margin-bottom: 15px;
+    }
+    .copy-col{
+        height: 22px;
+        width: 12vw;
+        font-size: 10px;
+    }
+
+    #c4{
+        display: none;
+    }
+    #c9{
+        display: none;
+    }
+}
+@media only screen and (max-width: 570px) {  
+    .card{
+        height: 25vh;
+        width: 42vw;
+        border-radius: 9px;
+    }
+    .color-temp{
+        height: 18vh;
+        width: 38vw;
+        border: 1px solid black;
+        margin-bottom: 12px;
+    }
+    .copy-col{
+        height: 22px;
+        width: 20vw;
+        font-size: 11px;
+    }
+    #c3{
+        display: none;
+    }
+    #c8{
+        display: none;
+    }
+    nav h1{
+        margin: 3px;
+        font-size: 1.5em;
+    }
+    
+    nav h3{
+        font-size: 1em;
+    }
+
+    h2{
+        font-size: 1.1em;
+    }
+
+    .gen-col{
+        width: 20vw;
+        padding: 2px;
+        height: 6vh;
+    }
+}

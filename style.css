@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background: blue;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+nav h1{
+    margin: 3px;
+    font-size: 2em;
+}
+
+nav h3{
+    font-size: 1.5em;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(203, 203, 203);
+    min-height: 35vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 15vw;
+    background-color: white;
+    border: 2px solid rgba(109, 108, 108, 0.506);
+    border-radius: 9px;
+}
+
+.color-temp{
+    height: 20vh;
+    width: 12vw;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-col{
+    height: 25px;
+    width: 7vw;
+    background: rgb(62, 62, 255);
+    border: 2px solid rgb(62, 62, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.copy-col:hover{
+    background-color: white;
+    color: rgb(62, 62, 255);
+    border: 2px solid rgb(62, 62, 255);
+}
+
+.generator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 1.8em;
+    margin: 5px;
+}
+
+.gen-col{
+    height: 30px;
+    width: 15vw;
+    font-weight: bold;
+    border: 2px solid rgb(62, 62, 255);
+    background-color: rgb(62, 62, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.gen-col:hover{
+    background-color: white;
+    color: rgb(62, 62, 255);
+}
+
